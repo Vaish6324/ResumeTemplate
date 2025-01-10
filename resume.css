@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.resume-left {
+    flex: 0 0 35%;
+    text-align: center;
+    background-color: #d88c47;
+    color: white;
+    padding: 3rem;
+    position: relative;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.resume-left h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.resume-left h2 {
+    font-size: 1.4rem;
+    color: #f0e5db;
+    margin-bottom: 1.5rem;
+}
+
+.career-objective {
+    margin-top: 1.5rem;
+}
+
+.career-objective h3 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 0.8rem;
+}
+
+.career-objective p {
+    font-size: 1rem;
+    color: #f0e5db;
+}
+
+.resume-right {
+    flex: 1;
+    background-color: white;
+    padding: 3rem;
+}
+
+.resume-section {
+    margin-bottom: 2rem;
+}
+
+.resume-section h3 {
+    font-size: 1.6rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.resume-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resume-section ul li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.resume-section ul li:hover {
+    background-color: #e3f2fd;
+    border-color: #2980b9;
+}
+
+.resume-right .resume-section.certificates {
+    margin-top: 2rem;
+}
+
+.print-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.print-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.print-container button:hover {
+    background-color: #0056b3;
+}

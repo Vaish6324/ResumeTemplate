@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div class="resume-container">
+        <div class="resume-left">
+            <div class="profile-pic">
+                <img id="resumeProfilePicture" src="default-profile.png" alt="Profile Picture">
+            </div>
+            <h1 id="resumeName">Your Name</h1>
+            <h2 id="resumeRole">Your Role</h2>
+
+            <div class="career-objective">
+                <h3>Career Objective</h3>
+                <p id="resumeCareerObjective">Your Career Objective</p>
+            </div>
+        </div>
+        <div class="resume-right">
+            <div class="resume-section">
+                <h3>Contact</h3>
+                <p>Email: <span id="resumeEmail">Your Email</span></p>
+                <p>Phone: <span id="resumePhone">Your Phone</span></p>
+
+                <p><strong>GitHub Link:</strong> <span id="resumeGithub">Your GitHub</span></p>
+                <p><strong>LinkedIn Link:</strong> <span id="resumeLinkedin">Your LinkedIn</span></p>
+            </div>
+            <div class="resume-section">
+                <h3>Skills</h3>
+                <ul id="resumeSkills"></ul>
+            </div>
+            <div class="resume-section">
+                <h3>Education</h3>
+                <ul id="resumeEducation"></ul>
+            </div>
+            <div class="resume-section">
+                <h3>Experience</h3>
+                <ul id="resumeExperience"></ul>
+            </div>
+            <div class="resume-section">
+                <h3>Certificates</h3>
+                <ul id="resumeCertificates"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="print-container">
+        <button onclick="printResume()">Print Resume</button>
+    </div>
+
+    <script src="resume.js"></script>
+</body>
+</html>
